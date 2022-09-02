@@ -596,8 +596,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -30.56958, y: 5.81781}
-  m_SizeDelta: {x: 73.3218, y: 3.2334}
+  m_AnchoredPosition: {x: -25.31781, y: 5.81781}
+  m_SizeDelta: {x: 105.7401, y: 3.2334}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &269330062
 MonoBehaviour:
@@ -1556,8 +1556,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -26.176, y: -188.55682}
-  m_SizeDelta: {x: 1051.8, y: 946.347}
+  m_AnchoredPosition: {x: 5.975, y: -212.5567}
+  m_SizeDelta: {x: 1116.102, y: 946.347}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &784986977
 MonoBehaviour:
@@ -1674,8 +1674,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 844409714}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.24, z: 0}
-  m_LocalScale: {x: 1.05, y: 1.05, z: 1.05}
+  m_LocalPosition: {x: -0.019, y: 0.24, z: 0}
+  m_LocalScale: {x: 1.1549758, y: 1.05, z: 1.05}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -2394,8 +2394,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 20.255798, y: -194.59207}
-  m_SizeDelta: {x: 221.689, y: -362.8473}
+  m_AnchoredPosition: {x: -10.3796, y: -181.46262}
+  m_SizeDelta: {x: 111.333, y: -315.5518}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1116180410
 MonoBehaviour:
@@ -3185,8 +3185,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 529.066, y: -1.517}
-  m_SizeDelta: {x: 35.188, y: 521.986}
+  m_AnchoredPosition: {x: 578, y: -0.000035763}
+  m_SizeDelta: {x: 35.188, y: 462.636}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1384243347
 MonoBehaviour:
@@ -3231,8 +3231,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 534092966}
   m_HandleRect: {fileID: 534092965}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.601506
+  m_Value: 0.9999999
+  m_Size: 0.5507847
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

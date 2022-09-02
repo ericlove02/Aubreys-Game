@@ -10,9 +10,9 @@ public class MoveLogo : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(logo.transform.position.x <= -943)
+        if(logo.transform.position.x <= -703)
         {
-            logo.transform.position = new Vector3(1381, 420, 0);
+            logo.transform.position = new Vector3(1621, 400, 0);
         }
         logo.transform.position += new Vector3(-0.25f, 0f, 0f);
 
