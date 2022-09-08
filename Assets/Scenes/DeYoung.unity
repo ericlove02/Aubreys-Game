@@ -2427,6 +2427,7 @@ GameObject:
   - component: {fileID: 848000925}
   - component: {fileID: 848000924}
   - component: {fileID: 848000923}
+  - component: {fileID: 848000926}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2521,6 +2522,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &848000926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 848000921}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 871e1be92f8d2f542a69c7ca7afff910, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseMenuPanel: {fileID: 0}
 --- !u!1 &879718728
 GameObject:
   m_ObjectHideFlags: 0
@@ -20036,7 +20050,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1a920ac97537fc4395067c24f852d61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneBuildIndex: 1
+  sceneBuildIndex: 2
 --- !u!61 &1658192081
 BoxCollider2D:
   m_ObjectHideFlags: 0

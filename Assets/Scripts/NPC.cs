@@ -88,7 +88,7 @@ public class NPC : MonoBehaviour
             index++;
             dialogueText.text = "";
             StartCoroutine(Typing());
-            if(this.tag == "Lulu" && index == dialogue.Length - 1 && poemPieceReward){
+            if(index == dialogue.Length - 1 && poemPieceReward){
                 poemPieceReward.SetActive(true);
             }
         }

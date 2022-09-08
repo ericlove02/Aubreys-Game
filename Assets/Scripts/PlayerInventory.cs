@@ -55,18 +55,21 @@ public class PlayerInventory : MonoBehaviour
 
     public void addToInventory(string value)
     {
-        File.AppendAllText(@"./Assets/Scripts/inventory.txt", value + Environment.NewLine);
+        File.AppendAllText(@"./inventory.txt", value + Environment.NewLine);
     }
 
     public List<string> getInventory()
     {
         List<string> list = new List<string>();
-        using (var file = new StreamReader("./Assets/Scripts/inventory.txt"))  
-        { 
-            string line;
-            while((line = file.ReadLine()) != null) 
-            {  
-                list.Add(line.Trim());
+        if (File.Exists("./inventory.txt"))
+        {
+            using (var file = new StreamReader("./inventory.txt"))  
+            { 
+                string line;
+                while((line = file.ReadLine()) != null) 
+                {  
+                    list.Add(line.Trim());
+                }
             }
         }
         return list;
@@ -74,7 +77,7 @@ public class PlayerInventory : MonoBehaviour
 
     public void ClearInventory()
     {
-        System.IO.File.WriteAllText("./Assets/Scripts/inventory.txt", string.Empty);
+        System.IO.File.WriteAllText("./inventory.txt", string.Empty);
         trashSound.Play();
         confirmPanel.SetActive(false);
     }
