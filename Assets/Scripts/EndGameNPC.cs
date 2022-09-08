@@ -27,7 +27,7 @@ public class EndGameNPC : MonoBehaviour
 
     void Start()
     {
-        if(player.GetComponent<PlayerInventory>().inventorySize >= 3)
+        if(player.GetComponent<PlayerInventory>().inventorySize >= 8)
         {
             thisNpc.SetActive(true);
             otherNpc.SetActive(false);

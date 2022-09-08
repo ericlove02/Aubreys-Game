@@ -25,6 +25,8 @@ public class NPC : MonoBehaviour
     public GameObject thisNpc;
     public GameObject otherNpc;
 
+    public GameObject poemPieceReward;
+
     void Start()
     {
         if(player && thisNpc && otherNpc){
@@ -86,6 +88,9 @@ public class NPC : MonoBehaviour
             index++;
             dialogueText.text = "";
             StartCoroutine(Typing());
+            if(this.tag == "Lulu" && index == dialogue.Length - 1 && poemPieceReward){
+                poemPieceReward.SetActive(true);
+            }
         }
         else
         {
