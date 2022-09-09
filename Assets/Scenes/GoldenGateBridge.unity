@@ -2441,8 +2441,13 @@ MonoBehaviour:
   dialoguePanel: {fileID: 502466265}
   dialogueText: {fileID: 1071713740}
   dialogue:
-  - AUBREY!!!
-  - Heres a piece lol
+  - Heyyyyyy Buddy!
+  - Welcome to the golden gate bridge!
+  - Did you know that 1800+ people have jumped from the bridge and only 25 survived
+    :( crazy tho
+  - One guy broke his bones upon hitting the water, but claims to have been lifted
+    up by a seal until a boat came to rescue him.
+  - Also here's a piece of the poem! :D
   keyMessage: {fileID: 1348699599}
   wordSpeed: 0.05
   playerIsClose: 0
@@ -2789,8 +2794,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 51, y: -339.10187}
-  m_SizeDelta: {x: -603.2778, y: -793.5188}
+  m_AnchoredPosition: {x: 41.950012, y: -358.9812}
+  m_SizeDelta: {x: -681.5, y: -833.2775}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &502466267
 MonoBehaviour:
@@ -15081,8 +15086,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -775, y: -373}
-  m_SizeDelta: {x: -1730.6467, y: -832.9661}
+  m_AnchoredPosition: {x: -775, y: -472.5585}
+  m_SizeDelta: {x: -1730.6467, y: -1032.083}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1348699601
 MonoBehaviour:
@@ -15149,7 +15154,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 94895d1bf8c2031458218042a2281fb7, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 98d4a65c5edefdb4c9925b06776dcc3c, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.091
   m_Pitch: 1
