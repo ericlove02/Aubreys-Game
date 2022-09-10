@@ -786,6 +786,8 @@ MonoBehaviour:
   - I am Lulululu, your cat, here to help you.
   - Look for me throughout California and I can guide you!
   - Here's the first piece of the poem to get you started! Good luck meow!
+  - I saw 8 total pieces around here. Once you get them all bring them back to Eric
+    at the house!
   keyMessage: {fileID: 1037093000}
   wordSpeed: 0.05
   playerIsClose: 0
